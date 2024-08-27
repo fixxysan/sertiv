@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .certificate-container {
+            text-align: center;
+            border: 2px solid #ddd;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .certificate-container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .certificates {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .certificates img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+
+        .certificate-item {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate-container">
+        <h1>My Certificates</h1>
+        <div class="certificates">
+            <div class="certificate-item">
+                <img src="asset/sertiv-pkl1.jpg" alt="Certificate 1">
+            </div>
+            <div class="certificate-item">
+                <img src="asset/sertiv-pkl2.jpg" alt="Certificate 2">
+            </div>
+            <div class="certificate-item">
+                <img src="asset/sertiv-robotik.jpg" alt="Certificate 3">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
